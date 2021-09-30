@@ -1,0 +1,145 @@
+* {
+    background-color: black;
+    opacity: 0.9;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    opacity: 1;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: block;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 10px 10px 9px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+h2 {
+    margin: 0 0 15px;
+}
+
+section {
+    display: block;
+    margin-top: 70px;
+    scroll-margin-top: 70px;
+    /* prevent top appearing beneath sticky nav when navigating by anchor fragment */
+}
+
+#mission {
+    height: 700px;
+    background: url(images/img-mission-background.jpg) no-repeat center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#mission-container {
+    width: 100%;
+}
+
+#featured {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#featured-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+#featured-container div {
+    width: 300px
+}
+
+#featured-container img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+figure,
+figcaption {
+    margin: 0;
+}
+
+#locations {
+    height: 500px;
+    max-width: 100%;
+    background: url(images/img-locations-background.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#locations h2 {
+    background: none;
+}
+
+#locations-container {
+    background: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    column-gap: 40px;
+    max-width: 100%;
+}
+
+#locations-container div {
+    opacity: 1;
+    width: 300px;
+}
+
+#contact {
+    min-height: 200px;
+}
+
+footer {
+    display: block;
+    margin: 20px;
+    text-align: left;
+}
